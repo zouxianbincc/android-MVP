@@ -25,6 +25,9 @@ public class BaseActivity extends AppCompatActivity {
         return (T) fragment;
     }
 
+
+    
+
     public <T extends android.support.v4.app.Fragment> T newSupportFragment(Class<T> fragmentClass, Bundle args) {
         android.support.v4.app.Fragment fragment = android.support.v4.app.Fragment.instantiate(getContext(), fragmentClass.getName(), args);
         fragment.setArguments(args);
