@@ -42,7 +42,6 @@ public class StartActivity extends BaseActivity implements IStartView {
 
     @Override
     public void startMain() {
-
         UIHelper.startMain(this);
         finish();
 

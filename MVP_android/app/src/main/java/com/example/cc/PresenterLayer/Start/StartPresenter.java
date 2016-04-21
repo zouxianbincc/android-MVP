@@ -33,12 +33,12 @@ public class StartPresenter {
 
                 mLocalVersion = new LocalVersion();
 
-                int localVersion = mLocalVersion.getLocalVersion(context);
+                int localVersion = mLocalVersion.getLocalVersion(context);//获取model保存的版本号
 
-                int systemVersion = SystemVersionInfo.getVersionCode(context);
+                int systemVersion = SystemVersionInfo.getVersionCode(context);//获取当前的版本号
 
 
-                UserEntity userEntity = LocalUserInfo.getUserInfo(context);
+                UserEntity userEntity = LocalUserInfo.getUserInfo(context);//获取用户登录状态
 
                 if (TextUtils.isEmpty(userEntity.token)){
 
@@ -61,16 +61,6 @@ public class StartPresenter {
                 mIStartView.startMain();
             }
         },5000);
-
-
-
-
-
-
-
-
-
-
 
     }
 }
