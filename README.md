@@ -181,4 +181,4 @@ public interface IStartView {
 在我学习MVP时。得到很多人的帮忙于解答。
 QuickAndroid(432563131)技术群里的：
 作者：壳
-成员：朽木，替补，老八，roy,轮回等
+成员：朽木，替补，jiechic，roy,轮回等
